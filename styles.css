@@ -3,7 +3,7 @@ body {
   background-image: url(./images/header-shapes\ mobile@2x.svg);
   background-repeat: no-repeat;
   background-size: 100%;
-  background-position-y: -160%;
+  background-position-y: 100%;
 }
 
 a {
@@ -12,6 +12,10 @@ a {
 
 .logo {
   padding-left: 5%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
 }
 
 .bar {
@@ -36,19 +40,22 @@ a {
 }
 
 .heading1 {
+  width: 80%;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+  margin-bottom: 0;
 }
 
 .paragraph {
+  margin-top: 2%;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #172b4d;
+  color: #344563;
   text-align: left;
 }
 
@@ -57,11 +64,16 @@ a {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
+  padding-bottom: 0;
   color: #7f8cff;
 }
 
 .footericons {
+  margin-top: 0;
+  padding-bottom: 0;
   display: flex;
   gap: 5%;
   align-items: center;
+  list-style: none;
+  padding-left: 0;
 }
