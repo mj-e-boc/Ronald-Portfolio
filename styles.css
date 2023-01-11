@@ -28,7 +28,7 @@ a {
 
 .hamburgermenu {
   margin-left: auto;
-  padding-right: 5%;
+  padding-right: 6%;
 }
 
 .main {
@@ -60,7 +60,7 @@ a {
   color: #7f8cff;
 }
 
-.footericons1 {
+.footericons {
   display: flex;
   gap: 5%;
   align-items: center;
