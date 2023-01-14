@@ -89,6 +89,15 @@ a {
   padding-left: 0;
 }
 
+.footericons2 {
+  margin-top: 0;
+  padding-bottom: 0;
+  display: flex;
+  gap: 5%;
+  align-items: center;
+  list-style: none;
+}
+
 /* projects */
 
 .img1 {
@@ -96,10 +105,14 @@ a {
   justify-content: center;
 }
 
-.projectcards {
-  margin-top: 20%;
+.projectscards {
+  margin-top: 20% a;
   display: grid;
-  row-gap: 100px;
+  row-gap: 88px;
+  width: 85%;
+  margin-bottom: 20%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .projectstext {
@@ -148,8 +161,6 @@ button:active {
 
 .project {
   border: 1px solid #dfe1e6;
-  width: 85%;
-  margin: 0 auto 88px auto;
   padding-top: 5%;
   border-radius: 16px;
   background-color: #fff;
@@ -175,20 +186,26 @@ button:active {
 }
 
 .button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
   padding: 5%;
   width: 50%;
   margin-bottom: 20%;
-  cursor: pointer;
   border-radius: 8px;
   border: 1px solid #6070ff;
   color: #6070ff;
 }
 
 .getresumebutton {
-  padding: 5%;
-  width: 25%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 4%;
   width: 50%;
-  margin-bottom: 20%;
+  margin-bottom: 10%;
   cursor: pointer;
   border-radius: 8px;
   border: 1px solid #6070ff;
