@@ -375,3 +375,82 @@ textarea {
   border-radius: 8px;
   border: none;
 }
+
+/* desktopview */
+
+@media(min-width:768px){
+
+.abtme{
+  display: flex;
+}
+
+.textitems{}
+
+  .img1{
+    float: left;
+    margin-left: 4%;
+    margin-right: 3%;
+  }
+
+.project{
+ max-height: auto;
+}
+
+  .button{
+    width: 15%;
+    padding: 2%;
+    margin-top: 5%;
+  }
+
+.Dtnav{
+  list-style-type: none;
+  display: flex;
+  gap: 6%;
+  margin: 0 10% 0 auto;
+}
+
+.frontpage{
+  background-color: #fff;
+  background-image: url(./images/Header\ bg@2x.png);
+  background-position: 20%;
+}
+
+.heading1{
+  width:30%;
+}
+
+.paragraph{
+  width:55% ;
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+}
+
+.hamburgermenu{
+  display: none;
+}
+
+.main{
+  margin-left: 10% ;
+}
+
+.logo{
+  margin-left:200% ;
+}
+
+.imgA{
+  display: none;
+}
+
+}
+
+@media(max-width:768px){
+  .Dtnav{
+    display: none;
+  }
+
+  .imgAA{
+    display: none;
+  }
+}
