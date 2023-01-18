@@ -73,7 +73,7 @@ form button {
 }
 
 .paragraph {
-  margin-top: 2%;
+  margin-top: 3%;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -345,13 +345,13 @@ button:active {
   text-align: center;
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
+  font-size: 41px;
+  line-height: 53px;
 }
 
 .contactme p {
   color: #ebebff;
-  width: 80%;
+  width: 81%;
   margin: 0 auto 30% auto;
   text-align: center;
 }
