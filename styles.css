@@ -313,4 +313,76 @@ button:active {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  
+}
+
+/* form */
+
+.contactme {
+  padding-top: 10%;
+  background-image: url(./images/aboutusimages/contact\ form\ shapes-mobile@2x.png);
+  background-repeat: no-repeat;
+  background-color: #6070FF;
+  padding-bottom: 10%;
+  border-top-left-radius: 60px;
+  background-size: 100%;s
+  background-position: 10% 10%;
+}
+
+.contactme h2{
+  color: #EBEBFF;
+  text-align: center;
+  font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 52px;
+}
+
+.contactme p{
+  color: #EBEBFF;
+  margin-bottom: 30%;
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+form {
+  display: grid;
+  gap: 18px;
+  width: 85%;
+  margin: 8% auto 0 auto;
+}
+
+textarea{
+height: 170px;
+border-radius: 8px;
+border: none;
+text-align: top;
+}
+
+.input{
+  height: 48px;
+  border-radius: 8px;
+  border: none;
+}
+
+form button {
+  width: 40%;
+  height: 48px;
+  font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+color: #6070FF;
+border-radius: 8px;
+border: none;
+}
+
+form button:hover {
+color: #fff;
+background-color: #6070FF;
+}
+
+form button:active{
+  background-color: #2230d2;
 }
