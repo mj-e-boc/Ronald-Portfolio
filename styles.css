@@ -60,8 +60,20 @@ a {
   margin-bottom: 0;
 }
 
+form button {
+  width: 40%;
+  height: 48px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #6070ff;
+  border-radius: 8px;
+  border: none;
+}
+
 .paragraph {
-  margin-top: 2%;
+  margin-top: 3%;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -313,4 +325,53 @@ button:active {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+}
+
+/* form */
+
+.contactme {
+  padding-top: 10%;
+  background-image: url(./images/aboutusimages/contact\ form\ shapes-mobile@2x.png);
+  background-repeat: no-repeat;
+  background-color: #6070ff;
+  padding-bottom: 10%;
+  border-top-left-radius: 60px;
+  background-size: 100%;
+  background-position: 10% 10%;
+}
+
+.contactme h2 {
+  color: #ebebff;
+  text-align: center;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 41px;
+  line-height: 53px;
+}
+
+.contactme p {
+  color: #ebebff;
+  width: 81%;
+  margin: 0 auto 30% auto;
+  text-align: center;
+}
+
+form {
+  display: grid;
+  gap: 18px;
+  width: 85%;
+  margin: 8% auto 0 auto;
+}
+
+textarea {
+  height: 170px;
+  border-radius: 8px;
+  border: none;
+  text-align: top;
+}
+
+.input {
+  height: 48px;
+  border-radius: 8px;
+  border: none;
 }
