@@ -183,6 +183,9 @@ button:active {
   color: #6070ff;
   padding: 3%;
   border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .abtme ul li {
@@ -213,6 +216,7 @@ form input :nth-child(1) {
   border-radius: 8px;
   border: 1px solid #6070ff;
   color: #6070ff;
+  background-color: #fff;
 }
 
 .getresumebutton {
@@ -540,6 +544,10 @@ textarea {
 }
 
 @media (max-width: 768px) {
+  .skillsetDT {
+    display: none;
+  }
+
   .specs {
     display: none;
   }
