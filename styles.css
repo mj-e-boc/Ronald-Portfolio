@@ -189,6 +189,11 @@ button:active {
   margin-bottom: 3%;
 }
 
+form input :nth-child(1) {
+  padding-top: 0;
+  margin-top: 0;
+}
+
 .qualities :nth-child(5) {
   color: #7a869a;
 }
@@ -325,6 +330,8 @@ button:active {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  padding-right: 0;
+  margin-right: 0;
 }
 
 /* form */
@@ -378,79 +385,170 @@ textarea {
 
 /* desktopview */
 
-@media(min-width:768px){
-
-.abtme{
-  display: flex;
-}
-
-.textitems{}
-
-  .img1{
-    float: left;
-    margin-left: 4%;
-    margin-right: 3%;
+@media (min-width: 768px) {
+  .frontpage ul {
+    gap: 8%;
   }
 
-.project{
- max-height: auto;
-}
+  .pro2 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 2%;
+    padding-bottom: 3%;
+  }
 
-  .button{
+  form button {
+    margin: auto;
+    width: 12%;
+  }
+
+  .button {
     width: 15%;
     padding: 2%;
     margin-top: 5%;
   }
 
-.Dtnav{
-  list-style-type: none;
-  display: flex;
-  gap: 6%;
-  margin: 0 10% 0 auto;
-}
+  .project .button {
+    width: 30%;
+    padding: 4%;
+  }
 
-.frontpage{
-  background-color: #fff;
-  background-image: url(./images/Header\ bg@2x.png);
-  background-position: 20%;
-}
+  .pro2 button {
+    width: 30%;
+    padding: 4%;
+  }
 
-.heading1{
-  width:30%;
-}
+  .projectcards :nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
 
-.paragraph{
-  width:55% ;
-  font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 28px;
-}
+  .skillsetTT img {
+    object-fit: cover;
+  }
 
-.hamburgermenu{
-  display: none;
-}
+  .skillsetDT {
+    margin-left: 3%;
+  }
 
-.main{
-  margin-left: 10% ;
-}
+  .specs {
+    display: flex;
+    gap: 4%;
+  }
 
-.logo{
-  margin-left:200% ;
-}
+  .textitems {
+    width: 50%;
+  }
 
-.imgA{
-  display: none;
-}
-
-}
-
-@media(max-width:768px){
-  .Dtnav{
+  .skillsPack {
     display: none;
   }
 
-  .imgAA{
+  .getresumebutton {
+    width: 20%;
+    padding: 2%;
+  }
+
+  .abtme {
+    display: flex;
+  }
+
+  .abtme p {
+    padding-right: 0;
+  }
+
+  .img1 {
+    float: left;
+    margin-left: 4%;
+    margin-right: 3%;
+  }
+
+  .project {
+    max-height: auto;
+    padding-left: 2%;
+    padding-bottom: 3%;
+    display: flex;
+  }
+
+  .Dtnav a {
+    color: #344563;
+  }
+
+  .Dtnav {
+    color: #344563;
+    display: flex;
+    list-style-type: none;
+    margin: 0 10% 0 auto;
+  }
+
+  .frontpage {
+    background-color: #fff;
+    background-image: url(./images/Header\ bg@2x.png);
+    background-position: 20%;
+  }
+
+  .heading1 {
+    width: 30%;
+  }
+
+  .paragraph {
+    width: 55%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .hamburgermenu {
+    display: none;
+  }
+
+  .main {
+    margin-left: 10%;
+  }
+
+  .logo {
+    margin-left: 200%;
+  }
+
+  .imgA {
+    display: none;
+  }
+
+  .contactme {
+    background-image: url(./images/contact\ form\ background\ shapes@2x.png);
+    background-size: 90%;
+  }
+
+  .contactme p {
+    width: 30%;
+    margin-bottom: 0;
+  }
+
+  form textarea {
+    width: 40%;
+    margin: auto;
+    border-radius: 0;
+  }
+
+  .input {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 0;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .specs {
+    display: none;
+  }
+
+  .Dtnav {
+    display: none;
+  }
+
+  .imgAA {
     display: none;
   }
 }
