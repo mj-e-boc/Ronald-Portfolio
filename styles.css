@@ -390,8 +390,12 @@ textarea {
 /* desktopview */
 
 @media (min-width: 768px) {
+  .footericons {
+    gap: 1%;
+  }
+
   .frontpage ul {
-    gap: 8%;
+    gap: 3%;
   }
 
   .pro2 {
@@ -486,6 +490,7 @@ textarea {
   }
 
   .frontpage {
+    margin-bottom: 14%;
     background-color: #fff;
     background-image: url(./images/Header\ bg@2x.png);
     background-position: 20%;
