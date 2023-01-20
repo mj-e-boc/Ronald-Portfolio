@@ -181,7 +181,7 @@ button:active {
 .languages li {
   background-color: #ebebff;
   color: #6070ff;
-  padding: 3%;
+  padding: 1%;
   border-radius: 8px;
   font-weight: 500;
   font-size: 12px;
@@ -321,7 +321,7 @@ form input :nth-child(1) {
   display: flex;
   list-style-type: none;
   padding-left: 0;
-  gap: 5%;
+  gap: 1.5%;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -417,8 +417,8 @@ textarea {
   }
 
   .project .button {
-    width: 30%;
-    padding: 4%;
+    width: 25%;
+    padding: 2%;
   }
 
   .pro2 button {
@@ -497,24 +497,27 @@ textarea {
   }
 
   .heading1 {
-    width: 30%;
+    width: 45%;
+    text-align: left;
   }
 
   .paragraph {
-    width: 55%;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
   }
 
+  .main {
+    margin: auto;
+    width: 50%;
+  }
+
   .hamburgermenu {
     display: none;
   }
 
-  .main {
-    margin-left: 10%;
-  }
+
 
   .logo {
     margin-left: 200%;
