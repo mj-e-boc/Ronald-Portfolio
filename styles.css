@@ -181,12 +181,20 @@ button:active {
 .languages li {
   background-color: #ebebff;
   color: #6070ff;
-  padding: 3%;
+  padding: 1%;
   border-radius: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
 }
 
 .abtme ul li {
   margin-bottom: 3%;
+}
+
+form input :nth-child(1) {
+  padding-top: 0;
+  margin-top: 0;
 }
 
 .qualities :nth-child(5) {
@@ -208,6 +216,7 @@ button:active {
   border-radius: 8px;
   border: 1px solid #6070ff;
   color: #6070ff;
+  background-color: #fff;
 }
 
 .getresumebutton {
@@ -312,7 +321,7 @@ button:active {
   display: flex;
   list-style-type: none;
   padding-left: 0;
-  gap: 5%;
+  gap: 1.5%;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -325,6 +334,8 @@ button:active {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
+  padding-right: 0;
+  margin-right: 0;
 }
 
 /* form */
@@ -374,4 +385,184 @@ textarea {
   height: 48px;
   border-radius: 8px;
   border: none;
+}
+
+/* desktopview */
+
+@media (min-width: 768px) {
+  .footericons {
+    gap: 1%;
+  }
+
+  .frontpage ul {
+    gap: 3%;
+  }
+
+  .pro2 {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-left: 2%;
+    padding-bottom: 3%;
+  }
+
+  form button {
+    margin: auto;
+    width: 12%;
+  }
+
+  .button {
+    width: 15%;
+    padding: 2%;
+    margin-top: 5%;
+  }
+
+  .project .button {
+    width: 25%;
+    padding: 2%;
+  }
+
+  .pro2 button {
+    width: 30%;
+    padding: 4%;
+  }
+
+  .projectcards :nth-child(2) {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .skillsetTT img {
+    object-fit: cover;
+  }
+
+  .skillsetDT {
+    margin-left: 3%;
+  }
+
+  .specs {
+    display: flex;
+    gap: 4%;
+  }
+
+  .textitems {
+    width: 50%;
+  }
+
+  .skillsPack {
+    display: none;
+  }
+
+  .getresumebutton {
+    width: 20%;
+    padding: 2%;
+  }
+
+  .abtme {
+    display: flex;
+  }
+
+  .abtme p {
+    padding-right: 0;
+  }
+
+  .img1 {
+    float: left;
+    margin-left: 4%;
+    margin-right: 3%;
+  }
+
+  .project {
+    max-height: auto;
+    padding-left: 2%;
+    padding-bottom: 3%;
+    display: flex;
+  }
+
+  .Dtnav a {
+    color: #344563;
+  }
+
+  .Dtnav {
+    color: #344563;
+    display: flex;
+    list-style-type: none;
+    margin: 0 10% 0 auto;
+  }
+
+  .frontpage {
+    margin-bottom: 14%;
+    background-color: #fff;
+    background-image: url(./images/Header\ bg@2x.png);
+    background-position: 20%;
+  }
+
+  .heading1 {
+    width: 45%;
+    text-align: left;
+  }
+
+  .paragraph {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+  }
+
+  .main {
+    margin: auto;
+    width: 50%;
+  }
+
+  .hamburgermenu {
+    display: none;
+  }
+
+  .logo {
+    margin-left: 200%;
+  }
+
+  .imgA {
+    display: none;
+  }
+
+  .contactme {
+    background-image: url(./images/contact\ form\ background\ shapes@2x.png);
+    background-size: 90%;
+  }
+
+  .contactme p {
+    width: 30%;
+    margin-bottom: 0;
+  }
+
+  form textarea {
+    width: 40%;
+    margin: auto;
+    border-radius: 0;
+  }
+
+  .input {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 0;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 768px) {
+  .skillsetDT {
+    display: none;
+  }
+
+  .specs {
+    display: none;
+  }
+
+  .Dtnav {
+    display: none;
+  }
+
+  .imgAA {
+    display: none;
+  }
 }
