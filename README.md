@@ -66,7 +66,7 @@
 
 > Add a link to your deployed project.
 
-- [Live Demo Link](https://github.com/mj-e-boc/Ronald-Portfolio)
+- [Live Demo Link](https://mj-e-boc.github.io/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
