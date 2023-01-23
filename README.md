@@ -7,7 +7,7 @@
   - [🛠 Built With](#HTML, CSS)
     - [Tech Stack](#)
     - [Key Features](#Demonstration of skills)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Demo]([#live-demo](https://mj-e-boc.github.io/))
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#Terminal)
