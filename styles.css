@@ -20,7 +20,7 @@ a {
 }
 
 .logo {
-  padding-left: 5%;
+margin-left: 40%;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -29,22 +29,90 @@ a {
   width: 100%;
 }
 
-.bar {
+.barclicked{
+  background-color: #fff;
+}
+
+.bar1,.bar2,.bar3 {
   width: 21px;
   height: 3px;
   background-color: #6070ff;
   margin-bottom: 18%;
 }
 
+.bar1clicked{
+  background-color: #fff;
+  transform: translate(0, 10px) rotate(-45deg);
+}
+.bar2clicked{
+  opacity: 0;
+}
+.bar3clicked{
+  background-color: #fff;
+  transform: rotate(45deg);
+  transform: translate(0, -4px) rotate(45deg);
+}
+
+
 .navigation {
   display: flex;
   align-items: center;
 }
 
-.hamburgermenu {
+
+.hamburger {
   margin-left: auto;
   padding-right: 6%;
+right:0;
+
 }
+
+.hamburgerclicked {
+  position: fixed;
+}
+
+.hamburgermenu a{
+  color: #fff;
+}
+
+.hamburgermenu{
+  background-color:rgb(37.6%,43.9%,100%, 0.85) ;
+  max-height: 100%;
+  backdrop-filter: blur(6px);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  width: 100%;  
+  color: #fff;
+  display: none;
+}
+
+.showmenu{
+  display: block;
+}
+
+.el{
+  margin-top: 20%;
+}
+
+.hamburgermenu h2 {
+font-family: 'Poppins', sans-serif;;
+  margin-left: 10%;
+  font-size: 32px;
+}
+
+.color{
+  max-width: 100%;
+  max-height: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  background-color: #6070FF;
+  opacity: 100%;
+}
+
+
+
 
 .main {
   padding: 20% 5%;
@@ -567,7 +635,7 @@ textarea {
     width: 50%;
   }
 
-  .hamburgermenu {
+  .hamburger {
     display: none;
   }
 

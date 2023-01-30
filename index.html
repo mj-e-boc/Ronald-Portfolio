@@ -11,6 +11,16 @@
   <body>
     <div class="frontpage">
       <header>
+        
+        <div class="hamburgermenu">
+          
+          <a href="#proj" class="hamItem"><h2 class="el">Portfolio</h2></a>
+          <a href="#abt" class="hamItem"><h2>About</h2></a>
+          <a href="#contact" class="hamItem"><h2>
+            Contact
+          </h2></a>
+          
+        </div>
         <nav class="navigation">
           <a href="#">
             <h2 class="logo">M Jay</h2>
@@ -24,11 +34,12 @@
             </li>
             <li><a href="#">Contact</a></li>
           </ul>
-          <div class="hamburgermenu">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
+          <div class="hamburger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
           </div>
+        
         </nav>
       </header>
 
@@ -69,7 +80,7 @@
       </section>
     </div>
     <!-- Projects section  -->
-    <section class="projectscards">
+    <section id='proj' class="projectscards">
       <div class="project">
         <div class="img1">
           <img
@@ -244,7 +255,7 @@
 
 
     <!-- aboutmyself -->
-    <section class="abtme">
+    <section id='abt' class="abtme">
             <!-- abtme desktopview -->
 
 </div>
@@ -358,7 +369,7 @@
     </section>
     <!-- form -->
 
-    <div class="contactme">
+    <div id='contact' class="contactme">
       <h2>Contact</h2>
       <p class="contacttext">
         If you have an application you are interested in developing, a feature
@@ -390,5 +401,6 @@
         <button type="button">Get In Touch</button>
       </form>
     </div>
+    <script src="index.js"></script>
   </body>
 </html>
