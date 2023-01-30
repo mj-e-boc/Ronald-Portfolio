@@ -11,4 +11,3 @@ hamburger.addEventListener('click', () => {
   bar2.classList.toggle('bar2clicked');
   bar3.classList.toggle('bar3clicked');
 });
-
