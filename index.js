@@ -12,10 +12,3 @@ hamburger.addEventListener('click', () => {
   bar3.classList.toggle('bar3clicked');
 });
 
-document.querySelectorAll('.hamItem').forEach((n) => n.addEventListener('click', () => {
-  hamburgerMenu.classList.remove('showmenu');
-  bar1.classList.remove('bar1clicked');
-  bar2.classList.remove('bar2clicked');
-  bar3.classList.remove('bar3clicked');
-  hamburger.classList.remove('hamburgerclicked');
-}));

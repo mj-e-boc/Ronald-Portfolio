@@ -20,7 +20,7 @@ a {
 }
 
 .logo {
-margin-left: 40%;
+  margin-left: 40%;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -29,90 +29,88 @@ margin-left: 40%;
   width: 100%;
 }
 
-.barclicked{
+.barclicked {
   background-color: #fff;
 }
 
-.bar1,.bar2,.bar3 {
+.bar1,
+.bar2,
+.bar3 {
   width: 21px;
   height: 3px;
   background-color: #6070ff;
   margin-bottom: 18%;
 }
 
-.bar1clicked{
+.bar1clicked {
   background-color: #fff;
   transform: translate(0, 10px) rotate(-45deg);
 }
-.bar2clicked{
+
+.bar2clicked {
   opacity: 0;
 }
-.bar3clicked{
+
+.bar3clicked {
   background-color: #fff;
   transform: rotate(45deg);
   transform: translate(0, -4px) rotate(45deg);
 }
-
 
 .navigation {
   display: flex;
   align-items: center;
 }
 
-
 .hamburger {
   margin-left: auto;
   padding-right: 6%;
-right:0;
-
+  right: 0;
 }
 
 .hamburgerclicked {
   position: fixed;
 }
 
-.hamburgermenu a{
+.hamburgermenu a {
   color: #fff;
 }
 
-.hamburgermenu{
-  background-color:rgb(37.6%,43.9%,100%, 0.85) ;
+.hamburgermenu {
+  background-color: rgb(37.6%, 43.9%, 100%, 0.85);
   max-height: 100%;
   backdrop-filter: blur(6px);
   position: fixed;
   top: 0;
   bottom: 0;
-  width: 100%;  
+  width: 100%;
   color: #fff;
   display: none;
 }
 
-.showmenu{
+.showmenu {
   display: block;
 }
 
-.el{
+.el {
   margin-top: 20%;
 }
 
 .hamburgermenu h2 {
-font-family: 'Poppins', sans-serif;;
+  font-family: 'Poppins', sans-serif;
   margin-left: 10%;
   font-size: 32px;
 }
 
-.color{
+.color {
   max-width: 100%;
   max-height: 100%;
   position: fixed;
   top: 0;
   bottom: 0;
-  background-color: #6070FF;
+  background-color: #6070ff;
   opacity: 100%;
 }
-
-
-
 
 .main {
   padding: 20% 5%;
@@ -186,7 +184,7 @@ form button {
 }
 
 .projectscards {
-  margin-top: 20% a;
+  margin-top: 20%;
   display: grid;
   row-gap: 88px;
   width: 85%;
@@ -446,7 +444,6 @@ textarea {
   height: 170px;
   border-radius: 8px;
   border: none;
-  text-align: top;
 }
 
 .input {
@@ -591,7 +588,6 @@ textarea {
   }
 
   .project {
-    max-height: auto;
     padding-left: 2%;
     padding-bottom: 3%;
     display: flex;
