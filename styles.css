@@ -618,8 +618,7 @@ textarea {
   .popdesc{
     text-align: left;
     float: left;
-    width: 50%;
-  
+    width: 60%;  
   }
   
   .popupwindowIn .header :nth-child(2){
@@ -627,6 +626,12 @@ textarea {
     margin-right: 5%;
   }
   
+  .see_btns {
+    display: flex;
+    margin-right: 20%;
+    justify-content: space-around;
+  }
+
   .seelive{
     margin-left: 5%;
     width: 20%;
@@ -667,8 +672,16 @@ textarea {
     margin: 0 auto;
     padding-bottom: 0;
   }
+
   .popTextitems{
+    display:flex;
     
+  }
+
+  .btn__link {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
   }
   
   .popupwindowIn .qualities{
@@ -938,28 +951,3 @@ textarea {
     display: none;
   }
 }
-
-/*
-add animation and transition for the portfolio project
-transform:scale(102%);
-add animation and transition for the portfolio project
-transform:scale(102%);
-add animation and transition for the portfolio project
-transform:scale(102%);
-add animation and transition for the portfolio project
-transform:scale(102%);
-add animation and transition for the portfolio project
-transform:scale(102%);
-add animation and transition for the portfolio project
-transform:scale(102%);
-add animation and transition for the portfolio project
-transform:scale(102%);
-add animation and transition for the portfolio project
-transform:scale(102%);
-add animation and transition for the portfolio project
-transform:scale(102%);
-git config --global --edit
-git config --global --edit
-git config --global --edit
-git config --global --edit
-*/
