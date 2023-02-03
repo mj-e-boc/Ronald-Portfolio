@@ -1,5 +1,5 @@
 body {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   background-color: #e5e5e5;
   padding: 0;
   margin: 0;
@@ -15,12 +15,12 @@ body {
   border-bottom-left-radius: 80px;
 }
 
-.showmode{
+.showmode {
   display: block;
 }
 
-.modal-background{
-  display: block;
+.modal-background {
+  display: none;
 }
 
 a {
@@ -105,128 +105,118 @@ a {
 }
 
 .hamburgermenu h2 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-left: 10%;
   font-size: 32px;
 }
 
-.modal-background{
-  background-color:rgb(75.7%, 78%, 81.6%, 85%);
-  backdrop-filter:blur(6px);
+.modal-background {
+  background-color: rgb(75.7%, 78%, 81.6%, 85%);
+  backdrop-filter: blur(6px);
   position: fixed;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
-  
 }
 
-.modal-background .header img{
+.modal-background .header img {
   height: fit-content;
   cursor: pointer;
 }
 
-
-.popupwindowIn{
- z-index: 10px;
+.popupwindowIn {
+  z-index: 10px;
   position: fixed;
   width: 92%;
   border-radius: 10px;
   height: 85%;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
+  transform: translate(-50%, -50%);
   background-color: #fff;
   backdrop-filter: blur(10px);
   padding-bottom: 8%;
 }
 
-
-.popupwindowIn .header{
-  justify-content: flex-end
-  ;
-display: flex;
-align-items: center;
-
-
+.popupwindowIn .header {
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
 }
 
-.popdesc{
+.popdesc {
   text-align: center;
   padding: 0 5%;
 }
 
-.popupwindowIn .header :nth-child(2){
-
+.popupwindowIn .header :nth-child(2) {
   margin-right: 5%;
 }
 
-.seelive{
+.seelive {
   margin-left: 5%;
   width: 40%;
   border: 1px solid #6070ff;
- border-radius:10px;
- font-style: normal;
- font-weight: 500;
- font-size: 15px;
- line-height: 20px;
- color:  #6070FF;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #6070ff;
 }
 
-.source{
+.source {
   width: 40%;
- margin-left: auto;
- border: 1px solid #6070ff;
- border-radius:10px;
- font-style: normal;
- font-weight: 500;
- font-size: 15px;
- line-height: 20px;
- color:  #6070FF;
+  margin-left: auto;
+  border: 1px solid #6070ff;
+  border-radius: 10px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #6070ff;
 }
 
-.githubimg{
+.githubimg {
   width: 50%;
 }
 
-.popupwindowIn .languages{
-  border-bottom: 1px solid #EBECF0;
-width: 90%;
+.popupwindowIn .languages {
+  border-bottom: 1px solid #ebecf0;
+  width: 90%;
   padding-bottom: 5%;
   margin: 5% auto;
 }
 
-.popupwindowIn .qualities{
+.popupwindowIn .qualities {
   margin-left: 5%;
 }
 
-.stylingpopbutton{
+.stylingpopbutton {
   display: flex;
   align-items: center;
   gap: 5%;
-
 }
 
-.stylingpopbutton :nth-child(1){
+.stylingpopbutton :nth-child(1) {
   margin-left: 8%;
 }
 
-.popupwindowIn .header h2{
+.popupwindowIn .header h2 {
   margin-right: auto;
   margin-left: 5%;
 }
 
-
-
-.popImg{
+.popImg {
   width: 90%;
 }
 
-.popImgdesktop{
+.popImgdesktop {
   display: none;
 }
 
-.popupImg{
+.popupImg {
   display: flex;
   justify-content: center;
 }
@@ -568,6 +558,15 @@ form {
   margin: 8% auto 0 auto;
 }
 
+#message {
+  display: none;
+  font-size: larger;
+}
+
+#message.active {
+  display: block;
+}
+
 textarea {
   height: 170px;
   border-radius: 8px;
@@ -583,135 +582,121 @@ textarea {
 /* desktopview */
 
 @media (min-width: 768px) {
-
-
   /* popup */
-  .modal-background .header img{
+  .modal-background .header img {
     height: fit-content;
     cursor: pointer;
   }
-  
-  
-  .popupwindowIn{
-   
+
+  .popupwindowIn {
     position: fixed;
     width: 80%;
     border-radius: 10px;
     height: 60%;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     background-color: #fff;
     backdrop-filter: blur(10px);
-    padding:1% 0 15% 0;
+    padding: 1% 0 15% 0;
   }
 
-  .popupwindowIn .header{
-    justify-content: flex-end
-    ;
-  display: flex;
-  align-items: center;
-  
-  
+  .popupwindowIn .header {
+    justify-content: flex-end;
+    display: flex;
+    align-items: center;
   }
-  
-  .popdesc{
+
+  .popdesc {
     text-align: left;
     float: left;
     width: 50%;
-  
   }
-  
-  .popupwindowIn .header :nth-child(2){
-  
+
+  .popupwindowIn .header :nth-child(2) {
     margin-right: 5%;
   }
-  
-  .seelive{
+
+  .seelive {
     margin-left: 5%;
     width: 20%;
     border: 1px solid #6070ff;
-   border-radius:10px;
-   font-style: normal;
-   font-weight: 500;
-   font-size: 15px;
-   line-height: 20px;
-   color:  #6070FF;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #6070ff;
   }
-  
-  .source{
+
+  .source {
     width: 20%;
-   margin-left: auto;
-   border: 1px solid #6070ff;
-   border-radius:10px;
-   font-style: normal;
-   font-weight: 500;
-   font-size: 15px;
-   line-height: 20px;
-   color:  #6070FF;
+    margin-left: auto;
+    border: 1px solid #6070ff;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #6070ff;
   }
-  
-  .githubimg{
+
+  .githubimg {
     width: 50%;
   }
-  
-.popTextitems .languages{
 
-  border-bottom: none;
-  margin-left: 90%;
-}
+  .popTextitems .languages {
+    border-bottom: none;
+    margin-left: 90%;
+  }
 
-  .popupwindowIn .languages{
-    
-  width: 90%;
+  .popupwindowIn .languages {
+    width: 90%;
     margin: 0 auto;
     padding-bottom: 0;
   }
-  .popTextitems{
+
+  /* .popTextitems{
     
-  }
-  
-  .popupwindowIn .qualities{
+  } */
+
+  .popupwindowIn .qualities {
     margin-left: 5%;
     margin-top: 0;
   }
-  
-  .stylingpopbutton{
+
+  .stylingpopbutton {
     display: flex;
     align-items: center;
     gap: 5%;
-  
   }
-  
-  .stylingpopbutton :nth-child(1){
+
+  .stylingpopbutton :nth-child(1) {
     margin-left: 8%;
   }
-  
-  .popupwindowIn .header h2{
+
+  .popupwindowIn .header h2 {
     margin-right: auto;
     margin-left: 5%;
   }
-  
-  .popImg{
+
+  .popImg {
     width: 90%;
     display: none;
   }
 
-  .popupImg .popImgdesktop{
+  .popupImg .popImgdesktop {
     display: block;
-    width:90%;
-    height:350px;
+    width: 90%;
+    height: 350px;
     object-fit: cover;
-    
-    
   }
-  
-  .popupImg{
+
+  .popupImg {
     display: flex;
     justify-content: center;
   }
   /* popup */
-
 
   .textitems p {
     font-size: 18px;
