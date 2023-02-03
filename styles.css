@@ -20,7 +20,7 @@ body {
 }
 
 .modal-background{
-  display: block;
+  display: none;
 }
 
 a {
@@ -785,7 +785,8 @@ textarea {
 
   form button {
     margin: auto;
-    width: 12%;
+    width: 19%;
+    font-size: 1.1rem;
   }
 
   .button {
